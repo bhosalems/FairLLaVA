@@ -223,5 +223,4 @@ If you find FairLLaVA useful, please cite:
   journal={arXiv preprint arXiv:2603.26008},
   year={2026}
 }
-}
 ```
