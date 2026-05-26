@@ -1,4 +1,4 @@
-# 🩺 FairLLaVA : Fairness-Aware Parameter-Efficient Fine-Tuning for Large Vision–Language Assistants
+# 🩺 [CVPR2026] FairLLaVA : Fairness-Aware Parameter-Efficient Fine-Tuning for Large Vision-Language Assistants
 
 [Mahesh Bhosale](https://bhosalems.github.io/)<sup>1</sup>, [Abdul Wasi](https://scholar.google.com/citations?user=_2friTYAAAAJ&hl=en)<sup>1</sup>, Shantam Srivastava<sup>1</sup>, Shifa Latif<sup>1</sup>, [Tianyu Luan](https://tyluann.github.io/)<sup>1</sup>, [Mingchen Gao](https://cse.buffalo.edu/~mgao8/)<sup>1</sup>, [David Doermann](https://scholar.google.com/citations?user=RoGOW9AAAAAJ&hl=en)<sup>1</sup>, [Xuan Gong](https://scholar.google.com/citations?user=sTqQ-jgAAAAJ&hl=en)<sup>2</sup>
 
@@ -9,7 +9,7 @@
 
 ## 📖 Overview
 
-FairLLaVA is a **fairness-aware, parameter-efficient fine-tuning** recipe for medical vision–language assistants. Multimodal LLMs such as LLaVA-Rad show strong image-conditioned generation, yet their outputs can vary in quality across demographic groups (age, sex, race), which is unacceptable in clinical settings. FairLLaVA mitigates this by **minimizing the mutual information** between the model's visual representation and the protected attribute, producing **demographic-invariant** features while preserving clinical accuracy. The method is architecture-agnostic, plugs into a standard LoRA fine-tuning loop, and is validated on chest-radiograph report generation (MIMIC-CXR) and skin-lesion VQA (HAM10000).
+FairLLaVA is a **fairness-aware, parameter-efficient fine-tuning** recipe for medical vision-language assistants. Multimodal LLMs such as LLaVA-Rad show strong image-conditioned generation, yet their outputs can vary in quality across demographic groups (age, sex, race), which is unacceptable in clinical settings. FairLLaVA mitigates this by **minimizing the mutual information** between the model's visual representation and the protected attribute, producing **demographic-invariant** features while preserving clinical accuracy. The method is architecture-agnostic, plugs into a standard LoRA fine-tuning loop, and is validated on chest-radiograph report generation (MIMIC-CXR) and skin-lesion VQA (HAM10000).
 
 ### 📄 Abstract
 
@@ -248,4 +248,3 @@ If you find FairLLaVA useful, please cite:
       url={https://arxiv.org/abs/2603.26008}
 }
 ```
-
