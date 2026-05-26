@@ -23,7 +23,6 @@ Multimodal large language models excel at image-conditioned generation but can d
 
 ## 📑 Contents
 - [Overview](#-overview)
-- [Requirements](#-requirements)
 - [Quick Start](#-quick-start)
   - [Environment setup](#environment-setup)
   - [Inference (single image)](#inference-single-image)
@@ -38,9 +37,6 @@ Multimodal large language models excel at image-conditioned generation but can d
 - [Acknowledgements](#-acknowledgements)
 - [Citation](#-citation)
 
-## 💻 Requirements
-
-We trained and tested FairLLaVA with Python 3.11, PyTorch 2.x, CUDA 12.1, and DeepSpeed. Training was done on 6 to 8 NVIDIA A6000 / A5000 GPUs. Single-image inference fits on a single 24 GB GPU.
 
 ## 🚀 Quick Start
 
