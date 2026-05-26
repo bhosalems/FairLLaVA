@@ -238,13 +238,11 @@ This work builds heavily on [LLaVA](https://github.com/haotian-liu/LLaVA) v1.5 a
 If you find FairLLaVA useful, please cite:
 
 ```bibtex
-@misc{bhosale2026fairllava,
-      title={FairLLaVA: Fairness-Aware Parameter-Efficient Fine-Tuning for Large Vision-Language Assistants},
-      author={Mahesh Bhosale and Abdul Wasi and Shantam Srivastava and Shifa Latif and Tianyu Luan and Mingchen Gao and David Doermann and Xuan Gong},
-      year={2026},
-      eprint={2603.26008},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2603.26008}
+@article{bhosale2026fairllava,
+  title={FairLLaVA: Fairness-Aware Parameter-Efficient Fine-Tuning for Large Vision-Language Assistants},
+  author={Bhosale, Mahesh and Wasi, Abdul and Srivastava, Shantam and Latif, Shifa and Luan, Tianyu and Gao, Mingchen and Doermann, David and Gong, Xuan},
+  journal={arXiv preprint arXiv:2603.26008},
+  year={2026}
+}
 }
 ```
