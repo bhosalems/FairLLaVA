@@ -1,8 +1,8 @@
 # 🩺 [CVPR2026] FairLLaVA : Fairness-Aware Parameter-Efficient Fine-Tuning for Large Vision-Language Assistants
 
-[Mahesh Bhosale](https://bhosalems.github.io/)<sup>1</sup>, [Abdul Wasi](https://scholar.google.com/citations?user=_2friTYAAAAJ&hl=en)<sup>1</sup>, Shantam Srivastava<sup>1</sup>, Shifa Latif<sup>1</sup>, [Tianyu Luan](https://tyluann.github.io/)<sup>1</sup>, [Mingchen Gao](https://cse.buffalo.edu/~mgao8/)<sup>1</sup>, [David Doermann](https://scholar.google.com/citations?user=RoGOW9AAAAAJ&hl=en)<sup>1</sup>, [Xuan Gong](https://scholar.google.com/citations?user=sTqQ-jgAAAAJ&hl=en)<sup>2</sup>
+[Mahesh Bhosale](https://bhosalems.github.io/)<sup>1</sup>, [Abdul Wasi](https://scholar.google.com/citations?user=_2friTYAAAAJ&hl=en)<sup>1</sup>, [Shantam Srivastava](https://scholar.google.com/citations?user=UXG7qiYAAAAJ&hl=en)<sup>1</sup>, Shifa Latif<sup>2</sup>, [Tianyu Luan](https://tyluann.github.io/)<sup>3</sup>, [Mingchen Gao](https://cse.buffalo.edu/~mgao8/)<sup>1</sup>, [David Doermann](https://scholar.google.com/citations?user=RoGOW9AAAAAJ&hl=en)<sup>1</sup>, [Xuan Gong](https://scholar.google.com/citations?user=sTqQ-jgAAAAJ&hl=en)<sup>4</sup>
 
-**<sup>1</sup>University at Buffalo  |  <sup>2</sup>Harvard Medical School**
+**<sup>1</sup>University at Buffalo  |  <sup>2</sup>University of Kashmir | <sup>3</sup>Accenture | <sup>4</sup>Harvard Medical School**
 
 [(i) Paper](https://arxiv.org/abs/2603.26008) [(ii) Video](https://www.youtube.com/watch?v=wWyS2shQJLc)
 [(iii) Poster](Figures/Poster_CVPR.pdf)
