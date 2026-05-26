@@ -54,22 +54,8 @@ pip install --upgrade pip
 pip install -e ".[train]"
 ```
 
-<details>
-<summary>Reproduce the exact pinned environment (optional, for byte-identical training runs)</summary>
 
-The pyproject.toml install above is enough to run training and inference. If you instead want the exact pinned versions used in the paper (i.e. for an apples-to-apples reproduction), install from the frozen `requirements.txt`:
-
-```bash
-conda create -n fairllava python=3.11 -y
-conda activate fairllava
-pip install --upgrade pip
-pip install -r requirements.txt
-pip install -e . --no-deps
-```
-
-</details>
-
-### Inference (single image)
+### Inference
 
 We provide a ready-to-run [inference.py](inference.py) that loads a FairLLaVA LoRA checkpoint on top of Vicuna-7B and BiomedCLIP-CXR, and runs report generation on a single chest X-ray:
 
@@ -86,8 +72,6 @@ model_base = "lmsys/vicuna-7b-v1.5"
 model_name = "llavarad"
 ```
 
-The released FairLLaVA checkpoints (best fairness-vs-accuracy trade-off on each dataset) will be uploaded to Hugging Face. The path-to-checkpoint setup in [inference.py](inference.py#L24) is the only thing you need to change to reproduce the example.
-
 ### 🤗 Pretrained checkpoints
 
 | Dataset | Base LLM | Vision Tower | MM Projector | FairLLaVA LoRA |
@@ -96,7 +80,6 @@ The released FairLLaVA checkpoints (best fairness-vs-accuracy trade-off on each 
 | PadChest   | `lmsys/vicuna-7b-v1.5` | BiomedCLIP-CXR 518 | [🤗 link](#) *(to upload)* | [🤗 link](#) *(to upload)* |
 | HAM10000   | `liuhaotian/llava-v1.5-7b` | CLIP ViT-L/14-336 | [🤗 link](#) *(to upload)* | [🤗 link](#) *(to upload)* |
 
-Each release will include `adapter_model.safetensors`, `adapter_config.json`, `non_lora_trainables.bin`, the tokenizer files, and the matching `mm_projector.bin` so the checkpoint can be loaded as `model_path` directly by [llava.model.builder.load_pretrained_model](llava/model/builder.py).
 
 ## 📦 Datasets & Preparation
 
