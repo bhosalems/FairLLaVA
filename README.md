@@ -4,8 +4,12 @@
 
 **<sup>1</sup>University at Buffalo  |  <sup>2</sup>University of Kashmir | <sup>3</sup>Accenture | <sup>4</sup>Harvard Medical School**
 
-[(i) Paper](https://arxiv.org/abs/2603.26008) [(ii) Video](https://www.youtube.com/watch?v=wWyS2shQJLc)
-[(iii) Poster](Figures/Poster_CVPR.pdf)
+[![Conference](https://img.shields.io/badge/Conference-CVPR%202026-1f6feb)](https://cvpr.thecvf.com/Conferences/2026)
+[![Paper](https://img.shields.io/badge/Paper-arXiv%3A2603.26008-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2603.26008)
+[![Video](https://img.shields.io/badge/Video-YouTube-ff0000?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=wWyS2shQJLc)
+[![Poster](https://img.shields.io/badge/Poster-PDF-ee4c2c?logo=adobeacrobatreader&logoColor=white)](Figures/Poster_CVPR.pdf)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-FairLLaVA-ffd21e?logo=huggingface&logoColor=000)](https://huggingface.co/mbhosale/FairLLaVA)
+
 
 ## 📖 Overview
 
