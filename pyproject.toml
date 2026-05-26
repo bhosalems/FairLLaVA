@@ -1,0 +1,101 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fairllava"
+version = "0.1.0"
+description = "FairLLaVA: Fairness-aware parameter-efficient fine-tuning for large vision-language assistants."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+]
+dependencies = [
+    "accelerate==0.27.2",
+    "bitsandbytes==0.41.3",
+    "datasets==4.0.0",
+    "deepspeed==0.14.4",
+    "einops==0.8.1",
+    "einops-exts==0.0.4",
+    "evaluate==0.4.5",
+    "fastapi",
+    "fire",
+    "gradio==3.35.2",
+    "gradio_client==0.10.0",
+    "httpx",
+    "huggingface-hub==0.34.3",
+    "markdown2[all]",
+    "nltk==3.9.1",
+    "numpy==1.26.4",
+    "open-clip-torch==3.0.0",
+    "pandas==2.3.1",
+    "peft==0.10.0",
+    "pillow==11.3.0",
+    "protobuf==5.29.1",
+    "radgraph==0.0.9",
+    "requests",
+    "rouge_score==0.1.2",
+    "sacrebleu==2.5.1",
+    "safetensors==0.5.3",
+    "scikit-learn==1.2.2",
+    "sentencepiece==0.1.99",
+    "shortuuid==1.0.13",
+    "statsmodels==0.14.5",
+    "timm==1.0.19",
+    "tokenizers==0.15.1",
+    "torch==2.1.2",
+    "torchvision==0.16.2",
+    "torchaudio==2.1.2",
+    "torchxrayvision==1.4.0",
+    "tqdm==4.67.1",
+    "transformers==4.31.0",
+    "uvicorn",
+    "wandb==0.21.0",
+]
+
+[project.optional-dependencies]
+train = [
+    "ninja==1.13.0",
+    "flash-attn==2.5.8",
+]
+dev = [
+    "ipykernel",
+    "jupyter",
+    "matplotlib",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/bhosalems/FairLLaVA"
+"Paper" = "https://arxiv.org/abs/2603.26008"
+
+[tool.setuptools.packages.find]
+exclude = [
+    "assets*",
+    "benchmark*",
+    "checkpoints*",
+    "data*",
+    "docs",
+    "dist*",
+    "playground*",
+    "scripts*",
+    "tests*",
+    "logs*",
+    "Figures*",
+    "CLUB*",
+    "GREEN*",
+]
+
+[tool.wheel]
+exclude = [
+    "assets*",
+    "benchmark*",
+    "docs",
+    "dist*",
+    "playground*",
+    "scripts*",
+    "tests*",
+    "logs*",
+    "Figures*",
+]

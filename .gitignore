@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+build/
+dist/
+.venv/
+venv/
+
+# Editable installs
+*.egg-info/
+
+# Notebooks / IDE
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Training / experiments
+checkpoints/
+logs/
+log.out
+log.out.*
+*.log
+wandb/
+runs/
+outputs/
+results/
+
+# OS / scratch
+.DS_Store
+Thumbs.db
+tmp.*
+*.tmp
+*.bak
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt

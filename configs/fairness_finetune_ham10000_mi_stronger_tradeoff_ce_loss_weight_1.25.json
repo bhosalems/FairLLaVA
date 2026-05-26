@@ -1,0 +1,40 @@
+{
+  "debiasing_method": "mi_club",
+
+  "gender_num": 2,
+  "age_num": 3,
+
+  "target_dem": ["age", "gender"],
+  "fairness_finetune": true,
+
+  "ce_loss_weight": 1.25,
+  "fairness_lambda": 0.3,
+
+  "race_lmda": 0.0,
+  "age_lmda": 0.4,
+  "gender_lmda": 0.15,
+
+  "mi_club_training_weight": 0.2,
+
+  "mi_token_mode": "text",
+  "mi_drop_bos_eos": true,
+  "hidden_depth": 0.5,
+  "fairness_stage": "debias",
+
+  "tapped_layers": [4, 8, 12, 16, 20, 24, 28, 32],
+  "dac_frozen": false,
+  "dac_loss_mode": "ce",
+  "dac_nhead": 2,
+  "dac_dropout": 0.1,
+  "dac_mlp_ratio": 0.5,
+  "dac_query_mode": "conditioned",
+
+  "dem_class_counts": {
+    "age": [],
+    "gender": [],
+    "race": []
+  },
+
+  "focal_loss_gamma": 2.0,
+  "focal_loss_alpha": null
+}
